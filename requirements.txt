@@ -1,0 +1,12 @@
+timeout_decorator
+numpy
+pandas
+pdfminer.six
+nltk
+requests
+bs4
+fastparquet
+python-snappy
+html5lib
+s3fs
+
