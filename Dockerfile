@@ -11,7 +11,3 @@ RUN apt-get install gcc git libxml2-dev libxslt1-dev zlib1g-dev g++ libsnappy-de
 RUN pip install -r requirements.txt
 
 RUN pip install git+git://github.com/CityBaseInc/pdfscrape.git git+git://github.com/CityBaseInc/cityscrape.git
-
-
-
-CMD bash

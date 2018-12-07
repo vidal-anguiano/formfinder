@@ -10,4 +10,5 @@ sudo apt-get install -y docker-ce
 
 sudo docker pull vidalanguiano/formfinder
 
-docker run -it --rm vidalanguiano/formfinder bash
+alias run_docker='sudo docker run -it --rm vidalanguiano/formfinder bash'
+

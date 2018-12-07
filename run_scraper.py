@@ -51,8 +51,6 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    print(args)
-
     w = scrape.WebScrape(args.startpage,
                      tovisit_q,
                      writeto_q,
