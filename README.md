@@ -26,7 +26,7 @@ The numbers in the above command are:
  - 2: the number of processes to dedicate to web scraping in parallel  
  - 4000: the number of PDF documents to scrape for text (PER PROCESS) before the process stops  
  - 2: the umber of processes to dedicate to the PDF scraping in parallel  
- When I ran this, I believe I used parameters `15000 4 4000 4` and ran it in an m5.2xlarge EC2 instance with 8 cores.
+ When I ran this, I believe I used parameters `15000 4 4000 4` and ran it in an m5.2xlarge EC2 instance with 8 cores. When I ran it in an EC2 instance, I had to install Docker among other things, and I unfortunately can't find the file where I kept all the commands I used to setup the EC2 instance.
 
 NOTE: The code, as written, will only push to my own S3 bucket. I also ran `docker run` with `-v` to mount my local `~/.aws` folder to `~/.aws` in the container, which enabled write to the S3 bucket.
 
