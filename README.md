@@ -20,7 +20,8 @@ These instructions are divided into two parts:
 3. Run the Docker container using `docker run -it --rm -v [LOCAL REPO FOLDER]:/mnt vidalanguiano/formfinder bash`
 
 4. To run the scraper, run `python scraper/run_scraper.py "https://cityofchicago.org" 15000 2 4000 2`  
-`-s3` flag can be used to push data straight to S3 and `-fnp` flag can be used to specify the filename'  
+`-s3` flag can be used to push data straight to S3 and `-fnp` flag can be used to specify the filename  
+
 The numbers in the above command are:  
  - 15000: the number of web pages to be scraped (PER PROCESS) for PDF links before the web scraper process stops  
  - 2: the number of processes to dedicate to web scraping in parallel  
