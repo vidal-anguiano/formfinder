@@ -41,9 +41,11 @@ NOTE: The output for when the files are saved locally are not the files that can
 
 2. Start the Docker container using `docker run -it -v [LOCAL REPO FOLDER]:/home/jovyan/ jupyter/pyspark-notebook bash`  
 
-3. Run the data produced from the web + PDF scraper through the model in the repo by running `python modeldeploy/run_model.py data.parq model.model`  
-NOTE: There are two command line arguments here, one is the filepath of the parquet file you created above or you (can use mine here) and the second argument is the model, which is in the repo.
+3. Install nltk by running `pip install nltk`.  
 
-4. See the results which should now be located in `./modeldeploy/output/results.csv`. See here for an example of the output.
+4. Run the data produced from the web + PDF scraper through the model in the repo by running `python modeldeploy/run_model.py data.parq model.model`  
+NOTE: There are two command line arguments here, one is the filepath of the parquet file you created above (I highly recommend using mine which can be found [here](https://drive.google.com/drive/folders/1sQzYmUM_U8PvAWvXQs3Z1eksDZoczilZ?usp=sharing)) and the second argument is the model, which is in the repo.
+
+5. See the results which should now be located in `./modeldeploy/output/results.csv`. See [here](https://drive.google.com/drive/folders/1sQzYmUM_U8PvAWvXQs3Z1eksDZoczilZ?usp=sharing) for an example of the output.
 
 
