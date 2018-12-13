@@ -6,7 +6,7 @@ This project scrapes municipal websites for pdf files, scrapes them, and uses Ma
 
 These instructions are divided into two parts: 
  - One for scraping the web for PDF files and scraping the text from those PDF files
- - The second for running the output of the web + PDF scraper through a model which splits out a probability score of whether it is a form.
+ - The second for running the output of the web + PDF scraper through a model which spits out a probability score of whether it is a form.
  
  
 ## Running the Web and PDF Scraper
